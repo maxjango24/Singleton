@@ -13,7 +13,7 @@ public class Main {
             ResultSet resultSet = statement.executeQuery(result);
             while (resultSet.next()){
                 System.out.println(resultSet.getString("firstname"));
-                System.out.println();
+                System.out.println("Shinrai Tensei");
             }
 
         } catch (SQLException | ClassNotFoundException e) {
